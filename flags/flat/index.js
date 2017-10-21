@@ -1,3 +1,3 @@
-import * as icons16 from './16';
+import * as icons from './32';
 
-export { icons16 };
+export { icons };
