@@ -10,8 +10,8 @@ type Props = {
 };
 
 const Flag = ({ code, style }: Props) => {
-  const flag = flags['flat'][`icons16`][code];
-  const unknownFlag = flags['flat'][`icons16`]['unknown'];
+  const flag = flags['flat'][`icons`][code];
+  const unknownFlag = flags['flat'][`icons`]['unknown'];
 
   return (
     <Image
